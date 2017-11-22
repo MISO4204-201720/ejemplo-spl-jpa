@@ -7,6 +7,9 @@
 	<persistence-unit name="test_PU" transaction-type="RESOURCE_LOCAL">
 	
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		
+		<class>datos.modelo.Usuario</class>		
+		
 		<properties>
 		
 			<property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver" />
